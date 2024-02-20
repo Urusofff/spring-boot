@@ -12,6 +12,7 @@
     <modules>
         <module>file-transfer-rest</module>
         <module>simple-rest</module>
+        <module>product-manager</module>
     </modules>
 
     <properties>

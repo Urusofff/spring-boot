@@ -10,9 +10,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product-manager" />
         <module name="file-transfer-rest" />
         <module name="simple-rest" />
+        <module name="restfull-hibernate" />
+        <module name="product-manager" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="file-transfer-rest" options="-parameters" />
       <module name="product-manager" options="-parameters" />
+      <module name="restfull-hibernate" options="-parameters" />
       <module name="simple-rest" options="-parameters" />
       <module name="spring-boot" options="" />
     </option>
